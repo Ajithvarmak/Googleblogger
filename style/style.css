@@ -12,11 +12,10 @@ a{
 }
 
 .div1{
-    display: inline-flexbox;
     background-color: #4583aa; 
     padding: 20px; 
     height: 750px; 
-    width: 1343px;
+    width: 1351px;
     background-image: url(/image/bluetheme/1.png),url(/image/bluetheme/2.png),url(/image/bluetheme/3.png),
     url(/image/bluetheme/6.png),url(/image/bluetheme/5.png),url(/image/bluetheme/4.png),url(/image/bluetheme/img.png);
     background-repeat: no-repeat;
@@ -72,3 +71,30 @@ a{
     border-radius: 5px;
 }
 
+.div2{
+    background-color :#FF8000;
+    color: white;
+    width: 1351px; 
+    height: 600px;
+    background-image:url(/image/orange/pencil.png), url(/image/orange/card2.png),url(/image/orange/card1.png);
+    background-repeat: no-repeat;
+    background-position: top,right bottom, right bottom;
+        background-size: 460px, 668px, 750px;
+    background-position-x: 600px, 806px, 695px;
+    background-position-y: 52px, 310px, 180px;
+}
+
+.div2-content{
+    width: 500px;
+    padding-top: 190px;
+    padding-left: 80px;
+}
+
+.div2-content h1 {
+    font-size: 40px;
+}
+
+.div2-content p{
+    width: 500px;
+    font-size: 20px;
+}
