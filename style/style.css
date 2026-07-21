@@ -124,3 +124,83 @@ a{
     line-height: 1.7;
     padding-left: 100px;
 }
+
+.div4 {
+    background-color : #398d80;
+    color: white;
+    width: 1351px; 
+    height: 600px;
+    background-image: url(/image/green/div4-1.png),url(/image/green/div4-4.png),
+    url(/image/green/div4-3.png),url(/image/green/div4-2.png);
+    background-repeat: no-repeat;
+    background-size: 32%, 6%, 24%, 20%;
+    background-position-x: 0px, 1255px, 1045px, 857px;
+    background-position-y: 90px, 330px, 354px, 370px;
+}
+
+.div4-content h1{
+    font-size: 40px;
+    padding-top: 180px;
+    padding-left: 550px;
+}
+
+.div4-content p{
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 1.7;
+    padding-left: 550px;
+}
+
+.div5 {
+    background-color :  #577783;
+    color: white;
+    width: 1351px; 
+    height: 600px;
+    background-image: url(/image/gray/div5-1.png),url(/image/gray/div5-2.png),url(/image/gray/div5-3.png),url(/image/gray/div5-4.png);
+    background-repeat: no-repeat;
+    background-size: 38%, 23.5%, 38%, 32.5%;
+    background-position-x: 750px, 1250px, 750px, 1240px;
+    background-position-y: 60px, 70px, 364px, 364px;
+}
+
+.div5-content h1{
+    font-size: 40px;
+    padding-top: 180px;
+    padding-left: 150px;
+}
+
+.div5-content p{
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 1.7;
+    padding-left: 150px;
+    width: 650px;
+}
+
+.div6 {
+    background-color : #bc372e;
+    color: white;
+    width: 1351px; 
+    height: 600px;
+    background-image: url(/image/red/lred3.png), url(/image/red/lred2.png),url(/image/red/lred.png);
+    background-repeat: no-repeat;
+    background-position: center left, center, center;
+    background-size: 25%, 25%, 22%;
+    background-position-x: 700px, 850px, 1070px;
+    background-position-y: 188px, 112px, 97px;
+    display: block;
+}
+
+.div6-content h1{
+    font-size: 45px;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+.div6-content p{
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 1.7;
+    padding-left: 150px;
+    width: 650px;
+}
