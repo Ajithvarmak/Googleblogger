@@ -79,13 +79,13 @@ a{
     background-image:url(/image/orange/pencil.png), url(/image/orange/card2.png),url(/image/orange/card1.png);
     background-repeat: no-repeat;
     background-position: top,right bottom, right bottom;
-        background-size: 460px, 668px, 750px;
-    background-position-x: 600px, 806px, 695px;
+    background-size: 460px, 668px, 750px;
+    background-position-x: 650px, 806px, 695px;
     background-position-y: 52px, 310px, 180px;
 }
 
 .div2-content{
-    width: 500px;
+    width: 450px;
     padding-top: 190px;
     padding-left: 80px;
 }
@@ -97,4 +97,30 @@ a{
 .div2-content p{
     width: 500px;
     font-size: 20px;
+}
+
+.div3 {
+    background-color :#bc372e;
+    color: white;
+    width: 1351px; 
+    height: 600px;
+    background-image: url(/image/red/1.png),url(/image/red/2.png),url(/image/red/3.png);
+    background-repeat: no-repeat;
+    background-size: 70%, 46%,23.5%;
+    background-position: center;
+    background-position-x: 613px, 771px,1067px;
+    background-position-y: 203px, 252px,110px;
+}
+
+.div3-content h1{
+    font-size: 40px;
+    padding-top: 220px;
+    padding-left: 100px;
+}
+
+.div3-content p{
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 1.7;
+    padding-left: 100px;
 }
